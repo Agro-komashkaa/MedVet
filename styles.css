@@ -1,0 +1,289 @@
+body{
+    background-color: #DDF9FF;
+    font-family: 'Jost', sans-serif;
+    margin: 0;
+    color: #3A2E2E;
+}
+/*Хеадер*/
+.head{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 60px;
+    margin-left: 160px;
+    margin-right: 160px;
+}
+
+.head_d{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.head_p1{
+    color: #6278B4;
+    font-weight: 700;
+    font-size: 36px;
+    margin: 0;
+}
+
+.head_img{
+    width: 50px;
+    height: 50px;
+}
+
+.head_d2{
+    display: flex;
+    justify-content: center;
+    gap: 75px;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+/*Блок 1*/
+.block1{
+    display: flex;
+    justify-content: center;
+    margin-left: 160px;
+    margin-right: 160px;
+    margin-bottom: 50px;
+}
+
+.block1_p1{
+    color: #6278B4;
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.block1_h1{
+    font-size: 48px;
+}
+
+.block1_p2{
+    font-size: 20px;
+    font-weight: 500;
+    width: 214px;
+}
+
+.btn{
+    background-color: #6278B4;
+    width: 242px;
+    height: 62px;
+    border-radius: 30px;
+    border: 0px;
+    color: #FFFFFF;
+    font-family: 'Jost', sans-serif;
+    font-size: 20px;
+    font-weight: 900;
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.25);
+}
+/*Блок 2*/
+.block2{
+    display: flex;
+    justify-content: center;
+    background-color: #FBFCFF;
+    height: 525px;
+}
+
+.block2_d1{
+    margin-left: 160px;
+    margin-right: 160px;
+}
+
+.span{
+    color: #6278B4;
+}
+
+.block2_h1{
+    display: flex;
+    justify-content: center;
+    font-size: 24px;
+    font-weight: 600;
+    border-bottom: 4px solid #6278B4;
+    width: 450px;
+    height: 110px;
+}
+
+.block2_d2 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px 80px;
+    width: 1075px;
+}
+
+.well {
+    width: 300px;
+    height: 125px; 
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    gap: 10px;
+    font-size: 14px;
+}
+
+.block2_dh{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.block2_img{
+    width: 50px;
+    height: 50px;
+}
+
+h3{
+    margin: 0;
+    font-weight: 400;
+    font-size: 24px;
+}
+/*Блок 3*/
+.block3{
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 160px;
+    margin-right: 160px;
+}
+
+.block3_d{
+    width: 360px;
+    height: 245px;
+}
+
+.block3_h1{
+    font-size: 48px;
+    color: #6278B4;
+}
+
+.block3_p{
+    font-size: 20px;
+    font-weight: 600;
+    width: 310px;
+}
+/*Блок 4*/
+.block4{
+    display: flex;
+    justify-content: center;
+    background-color: #FBFCFF;
+}
+
+.block4_d{
+    margin-left: 160px;
+    margin-right: 160px;
+}
+
+.dfh1{
+    display: flex;
+    justify-content: center;
+    font-size: 24px;
+    font-weight: 600;
+    border-bottom: 4px solid #6278B4;
+    width: 450px;
+    height: 110px;
+}
+
+.stuff{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.stf{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.block4_p{
+    font-size: 32px;
+    font-weight: 600;
+    border-top: 4px solid #3A2E2E;
+    padding-top: 25px;
+    margin-bottom: 60px;
+}
+
+.dfh{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.block4_img{
+    width: 352px;
+    height: 448px;
+}
+/*Футер*/
+.foot{
+    display: flex;
+    background-color: #535353;
+    justify-content: center;
+}
+
+.fot{
+    display: flex;
+    margin-left: 160px;
+    margin-right: 160px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 50px;
+    padding-bottom: 70px;
+}
+
+.fot_d1{
+    border-bottom: 2px solid #6278B4;
+    width: 1120px;
+    display: flex;
+    justify-content: flex-start;
+    padding-bottom: 35px;
+}
+
+.foot_img{
+    width: 65px;
+    height: 65px;
+}
+
+.fot_d15{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact{
+    display: flex;
+    justify-content: flex-start;
+    color: #FFFFFF;
+    width: 1120px;
+    flex-direction: column;
+}
+
+.contacts{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.fot_img{
+    width: 35px;
+    height: 35px;
+}
+
+.foot_p{
+    width: 244px;
+}
+
+.fot_p{
+    font-size: 24px;
+    font-weight: 500;
+}
